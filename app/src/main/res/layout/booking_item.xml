@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="12dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="6dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Profile Image -->
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profileImage"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/acc1"
+            android:contentDescription="Profile Picture"
+            app:civ_border_width="2dp"
+            app:civ_border_color="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- Name -->
+        <TextView
+            android:id="@+id/bookingName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Ritika Sinha"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/profileImage"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0" />
+
+        <!-- Specialization -->
+        <TextView
+            android:id="@+id/bookingSpecialization"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="M.A. in Child Psychology"
+            android:textSize="15sp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginTop="4dp"
+            app:layout_constraintStart_toStartOf="@id/bookingName"
+            app:layout_constraintTop_toBottomOf="@id/bookingName"
+            app:layout_constraintEnd_toStartOf="@id/profileImage" />
+
+        <!-- Experience -->
+        <TextView
+            android:id="@+id/bookingExperience"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="6 years experience"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintStart_toStartOf="@id/bookingName"
+            app:layout_constraintTop_toBottomOf="@id/bookingSpecialization"
+            app:layout_constraintEnd_toStartOf="@id/profileImage" />
+
+        <!-- Rating -->
+        <TextView
+            android:id="@+id/bookingRating"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="⭐ 4.9"
+            android:textSize="14sp"
+            android:textColor="@android:color/holo_orange_dark"
+            android:layout_marginTop="4dp"
+            app:layout_constraintStart_toStartOf="@id/bookingName"
+            app:layout_constraintTop_toBottomOf="@id/bookingExperience"
+            app:layout_constraintEnd_toStartOf="@id/profileImage" />
+
+        <!-- Date + Time -->
+        <TextView
+            android:id="@+id/bookingDateTime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="📅 2/7/2025 ⏰ 16:35"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="2dp"
+            app:layout_constraintStart_toStartOf="@id/bookingName"
+            app:layout_constraintTop_toBottomOf="@id/bookingRating"
+            app:layout_constraintEnd_toStartOf="@id/profileImage" />
+
+        <!-- Days -->
+        <TextView
+            android:id="@+id/bookingDays"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="📆 Days: 3"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="2dp"
+            app:layout_constraintStart_toStartOf="@id/bookingName"
+            app:layout_constraintTop_toBottomOf="@id/bookingDateTime"
+            app:layout_constraintEnd_toStartOf="@id/profileImage" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

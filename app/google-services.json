@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "497847650106",
+    "project_id": "login-example-22994",
+    "storage_bucket": "login-example-22994.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:497847650106:android:d4fb1c259fd941a5d1b203",
+        "android_client_info": {
+          "package_name": "com.example.babycare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "497847650106-bcaq7mbb74dapkr72cqavt3mpj6igl5h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.babycare",
+            "certificate_hash": "2cd358ef2fbf1434b2a9397e45349a03bdf52060"
+          }
+        },
+        {
+          "client_id": "497847650106-1m9rj4va5pof81sfq94mieuknokricrq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1Seahomi5bEuioCoURztAEopXP6EjMXs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "497847650106-1m9rj4va5pof81sfq94mieuknokricrq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

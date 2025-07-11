@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+
+    <item android:id="@+id/nav_home" android:title="Home" android:icon="@drawable/baseline_home_24" />
+        <item android:title="Categories">
+            <menu>
+
+<item android:id="@+id/nav_child_care" android:title="Child Care" android:icon="@drawable/baseline_child_care_24"/>
+<item android:id="@+id/nav_medical_care" android:title="Medical Care" android:icon="@drawable/baseline_medical_services_24"/>
+<item android:id="@+id/nav_elder_care" android:title="Elder Care" android:icon="@drawable/old"/>
+<item android:id="@+id/nav_house_keeping" android:title="HouseService" android:icon="@drawable/cleaner"/>
+</menu>
+    </item>
+<item android:id="@+id/nav_profile" android:icon="@drawable/person" android:title="Profile"/>
+<item android:id="@+id/nav_help" android:icon="@drawable/ic_help_support" android:title="Help and Support"/>
+<item android:id="@+id/nav_feedback" android:icon="@drawable/feedback" android:title="Feedback"/>
+<item android:id="@+id/nav_logout" android:title="Logout" android:icon="@drawable/baseline_logout_24" />
+
+    </group>
+    </menu>

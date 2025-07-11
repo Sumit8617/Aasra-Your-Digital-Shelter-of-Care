@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    card_view:cardCornerRadius="16dp"
+    card_view:cardElevation="4dp"
+    android:background="@android:color/transparent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:background="@color/yellow">
+
+        <!-- Profile Image -->
+        <ImageView
+            android:id="@+id/nannyImage"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/icon_nannyfemale"
+            android:scaleType="centerCrop"
+            android:layout_marginEnd="12dp" />
+
+        <!-- Nanny Info Block -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nannyName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aisha Sharma"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/nannyQualification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B.Sc in Child Development" />
+
+            <TextView
+                android:id="@+id/nannyExperience"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5 years experience" />
+
+            <TextView
+                android:id="@+id/nannyRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="⭐ 4.7" />
+        </LinearLayout>
+
+        <!-- Booking Rate and Button -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/nannyRate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₹800/hr"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bookButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Book"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

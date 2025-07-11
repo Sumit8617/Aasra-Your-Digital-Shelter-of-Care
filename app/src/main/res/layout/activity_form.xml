@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".ActivityForm">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Section: Basic Information -->
+        <TextView
+            android:text="👤 Personal Information"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/darkgreen"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/etName"
+            android:hint="Full Name"
+            android:inputType="textPersonName"
+            android:minHeight="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_bg"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/etPhone"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:minHeight="40dp"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_bg"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:minHeight="40dp"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_bg"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/etExperience"
+            android:hint="Years of Experience"
+            android:inputType="number"
+            android:minHeight="40dp"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_bg"
+            android:padding="12dp" />
+
+        <!-- Add this after etExperience and before spinnerCareType -->
+        <TextView
+            android:id="@+id/tvGender"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:padding="12dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/spinner_bg"
+            android:text="Select Gender"
+            android:textColor="@android:color/black"
+            android:drawableEnd="@android:drawable/arrow_down_float"
+            android:drawablePadding="8dp"/>
+
+
+        <Spinner
+            android:id="@+id/spinnerCareType"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/spinner_bg" />
+        <Spinner
+            android:id="@+id/spinnerSubType"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/spinner_bg" />
+
+
+
+        <!-- Section: Uploads -->
+        <TextView
+            android:text="📂 Upload Documents"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/darkgreen"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Profile Photo Upload -->
+        <Button
+            android:id="@+id/btnUploadPhoto"
+            android:text="📸 Upload Profile Photo"
+            android:layout_marginTop="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/imgPreviewPhoto"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="4dp"
+            android:scaleType="centerCrop"
+            android:visibility="gone"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="Profile Photo Preview" />
+
+        <!-- Certificate Upload -->
+        <Button
+            android:id="@+id/btnUploadCertificate"
+            android:text="🎓 Upload Certificate"
+            android:layout_marginTop="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Aadhaar Upload -->
+        <Button
+            android:id="@+id/btnUploadAadhaar"
+            android:text="🆔 Upload Aadhaar Card"
+            android:layout_marginTop="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- PCC Upload -->
+        <Button
+            android:id="@+id/btnUploadPCC"
+            android:text="🛡️ Upload PCC"
+            android:layout_marginTop="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Submit -->
+        <Button
+            android:id="@+id/btnSubmit"
+            android:text="✅ Submit"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/darkgreen"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/helpTitle"
+            android:text="🆘 Help and Support"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- FAQ Items -->
+        <TextView
+            android:id="@+id/faq1"
+            android:text="1. How do I book a caregiver?\n➡ Go to Service → Select Provider → Tap Book"
+            android:layout_marginBottom="16dp"
+            android:textSize="16sp"
+            android:textColor="#444444"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/faq2"
+            android:text="2. How do I cancel my booking?\n➡ Go to Booking History → Tap on the booking"
+            android:layout_marginBottom="16dp"
+            android:textSize="16sp"
+            android:textColor="#444444"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/faq3"
+            android:text="3. Are providers verified?\n➡ Yes, they upload certificates, Aadhaar and PCC"
+            android:layout_marginBottom="16dp"
+            android:textSize="16sp"
+            android:textColor="#444444"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/faq4"
+            android:text="4. Is my information safe?\n➡ Yes, we securely store everything on Firebase"
+            android:layout_marginBottom="16dp"
+            android:textSize="16sp"
+            android:textColor="#444444"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/faq5"
+            android:text="5. How can I update my profile?\n➡ Go to Profile → Tap Edit → Save"
+            android:layout_marginBottom="24dp"
+            android:textSize="16sp"
+            android:textColor="#444444"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Help & Support Button -->
+        <Button
+            android:id="@+id/btnHelpSupport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/purple_500"
+            android:text=" HELP and SUPPORT"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:padding="12dp"/>
+    </LinearLayout>
+</ScrollView>
