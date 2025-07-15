@@ -48,8 +48,30 @@ It ensures accessible support and a seamless booking experience based on user ne
 
 ---
 
-## 🧪 How to Run Locally
+## 📥 Download the App (APK)
 
-1. Clone the repository:
+[🔗 Click here to download Aasra App (APK)](https://github.com/Sumit8617/Aasra-Your-Digital-Shelter-of-Care/releases/download/v1.0.0/app-debug.apk)
+
+---
+
+## 🧪 How to Run the App
+
+### 📱 On Mobile (Install APK)
+1. Click the download link above
+2. Allow unknown sources in your phone settings
+3. Open the file to install
+
+---
+
+### 💻 On Laptop (Using Android Studio)
+
+#### ✅ Requirements:
+- Android Studio
+- Kotlin
+- Firebase configuration
+- Internet connection
+
+#### 🔧 Steps:
+1. Clone the project:
    ```bash
-   git clone https://github.com/your-username/aasra-app.git
+   git clone https://github.com/Sumit8617/Aasra-Your-Digital-Shelter-of-Care.git
