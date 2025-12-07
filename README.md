@@ -50,7 +50,7 @@ It ensures accessible support and a seamless booking experience based on user ne
 
 ## 📥 Download the App (APK)
 
-[🔗 Click here to download Aasra App (APK)](https://github.com/Sumit8617/Aasra-Your-Digital-Shelter-of-Care/releases/download/v1.0.0/app-debug.apk)
+[🔗 Click here to download Aasra App (APK)]([https://github.com/Sumit8617/Aasra-Your-Digital-Shelter-of-Care/releases/download/v1.0.0/app-debug.apk](https://drive.google.com/drive/folders/1NEAYxnnDvdpAWOLjt-pPz5b7dRI93aHD?usp=drive_link))
 
 ---
 
