@@ -50,7 +50,7 @@ It ensures accessible support and a seamless booking experience based on user ne
 
 ## 📥 Download the App (APK)
 
-[🔗 Click here to download Aasra App (APK)]([(https://drive.google.com/drive/folders/1NEAYxnnDvdpAWOLjt-pPz5b7dRI93aHD?usp=drive_link)](https://drive.google.com/drive/folders/1NEAYxnnDvdpAWOLjt-pPz5b7dRI93aHD?usp=drive_link))
+https://drive.google.com/drive/folders/1NEAYxnnDvdpAWOLjt-pPz5b7dRI93aHD?usp=drive_link)](https://drive.google.com/drive/folders/1NEAYxnnDvdpAWOLjt-pPz5b7dRI93aHD?usp=drive_link
 
 ---
 
